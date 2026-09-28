@@ -1,0 +1,9 @@
+# Deployed as its own service, so Task 1 keeps running on the default URL.
+service: db
+runtime: python312
+instance_class: F1
+
+# Keep usage inside the free tier: a single small instance, scaled to zero when idle.
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1

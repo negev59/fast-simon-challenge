@@ -1,0 +1,11 @@
+.gcloudignore
+.git
+.gitignore
+__pycache__/
+.pytest_cache/
+venv/
+.venv/
+tests/
+requirements-dev.txt
+smoke_test.py
+pytest.ini

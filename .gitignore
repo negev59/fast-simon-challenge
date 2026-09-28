@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# IDE / OS
+.idea/
+.DS_Store
+
+# The challenge instructions
+*.pdf
